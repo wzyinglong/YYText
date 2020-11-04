@@ -1,5 +1,10 @@
 YYText
 ==============
+###<font color = "#DC143C">Fork的目的只是下面的方法暴露出来,其它未修改;</font>
+```
+- (YYTextHighlight *)_getHighlightAtPoint:(CGPoint)point range:(NSRangePointer)range;
+```
+
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/YYText/master/LICENSE)&nbsp;
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)&nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/v/YYText.svg?style=flat)](http://cocoapods.org/pods/YYText)&nbsp;

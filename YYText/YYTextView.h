@@ -345,6 +345,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic) CGFloat extraAccessoryViewHeight;
 
+/**
+ Try to get the highlight property. If exist, the range will be returnd by the range pointer.
+ If the delegate ignore the highlight, returns nil.
+*/
+- (YYTextHighlight *)_getHighlightAtPoint:(CGPoint)point range:(NSRangePointer)range;
+
 @end
 
 
